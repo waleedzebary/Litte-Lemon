@@ -1,11 +1,14 @@
-import logo from '../../images/logo.jpg'
+import logo from '../../images/logo.jpg';
+import './header.css';
 
 const Header = () => {
     return (
         <>
-      <header>
+      <header className="header">
+      <div className="logo">
         <img src={logo} alt="Little Lemon Logo" />
-      </header>
+      </div>
+    </header>
       </>
     );
   }

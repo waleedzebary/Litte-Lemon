@@ -1,125 +1,24 @@
-.box {
-    height: 39px;
-    position: relative;
-    width: 901px;
-  }
-  
-  .box .navbar {
-    height: 39px;
-    right: 0;
-    position: fixed;
-    top: 0;
-    width: 913px;
-    flex-shrink: 0;
-  }
-  .box .navbar ul {
-    list-style-type: none; /* This removes the bullets */
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
+/* Navbar.css */
 
-  .box .navbar li {
-    display: inline; /* This makes the list items inline */
-    margin-right: 20px;
-  }
-  .box .navbar a {
-    text-decoration: none; /* Removes underline from links */
-    color: #000000; /* Ensures the links are black */
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 32px;
-    font-weight: 400;
-    transition: color 0.3s ease; /* Smooth transition for color change */
-  }
-  
-  .box .navbar a:hover {
-    color: #F4CE14; /* Change this to the desired hover color */
-  }
-  
-  .box .text-wrapper {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 32px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-  }
-  
-  .box .div {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 32px;
-    font-weight: 400;
-    left: 117px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-  }
-  
-  .box .text-wrapper-2 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 32px;
-    font-weight: 400;
-    left: 239px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-  }
-  
-  .box .text-wrapper-3 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 32px;
-    font-weight: 400;
-    left: 355px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-  }
-  
-  .box .text-wrapper-4 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 32px;
-    font-weight: 400;
-    left: 590px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-  }
-  
-  .box .text-wrapper-5 {
-    color: #000000;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 32px;
-    font-weight: 400;
-    left: 818px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-  }
+.navbar {
+  display: flex;
+  justify-content: flex-end; /* Aligns the nav links to the right */
+}
 
-  .image {
-    width: 243px;
-    height: 66px;
-    flex-shrink: 0;
-  }
-  
-  .image .img {
-    height: 66px;
-    left: 0;
-    object-fit: cover;
-    position: fixed;
-    top: 0;
-    width: 243px;
-  }
-  
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 60px; /* Adjust the space between the items */
+  margin-right: 70px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #000;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #f4a261;
+}

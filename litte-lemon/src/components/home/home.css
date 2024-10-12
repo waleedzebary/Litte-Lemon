@@ -118,3 +118,9 @@ body {
     }
   }
   
+  .header-navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align them vertically in the center */
+    padding: 10px 70px; /* Adjust padding as per your needs */
+  }
